@@ -1,0 +1,87 @@
+#topbanner{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 280px;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#logo {
+	position: absolute;
+	left: 45%;
+	top: 0px;
+	width: 136px;
+	height: 178px;
+	z-index: 2;
+}
+#navbar {
+	position: absolute;
+	left: 0px;
+	top: 223px;
+	width: 100%;
+	height: 42px;
+	z-index: 3;
+	background-color: #230B03;
+}
+
+ul{
+	
+	text-align: center;
+}
+
+	
+li{
+	color: #CEBB99;
+	display: inline;
+	font-size: 19px;
+	overflow:hidden;
+	}
+	
+
+	
+
+.middle-text{
+	
+}
+#leftcolumn {
+	text-align: center;	
+	position: absolute;
+	left: 10%;
+	top: 288px;
+	width: 300px;
+	
+	z-index: 4;
+}
+#rightcolumn {
+	text-align: center;
+	padding: 1px;
+	position: absolute;
+	left: 55%;
+	top: 288px;
+	width: 300px;
+	
+	z-index: 4;
+}
+h2{
+	color: #230B03;	
+	}
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	
+	background-color: #230B03;
+	height: 100px;
+	left: 0px;
+	clear: both;
+}
+#foot{
+	color: #CEBB99;	
+	text-align: center;
+}
+#foot2{
+	color: #CEBB99;	
+	text-align: center;
+}

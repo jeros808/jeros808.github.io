@@ -1,0 +1,76 @@
+#top-nav{
+	position: absolute;
+	left: 75%;
+top: 55px;
+	
+
+text-align: right;
+
+}
+
+#logo{
+top:0px;
+	text-align:left;
+	position: absolute;
+	height: 208;
+	width: 7;
+}
+a{
+	text-decoration:none; 
+ list-style-type: none;
+	font-weight:bold;
+	color: #000000;
+}
+p{
+	position: relative;
+top: 10%;
+
+}
+
+li{
+	text-decoration:none; 
+ list-style-type: none;
+
+}
+
+
+
+#line{
+	text-align: left;
+	position: absolute;
+	top: 80px;
+
+width: 100%;
+
+
+}
+#sidebar{
+	left: 0px;
+	text-align: left;
+	position: absolute;
+	top: 100px;
+font-weight:bold; 
+width: 250px;
+	height: 600px;
+
+}
+#blog{
+	position:absolute;
+height: 300px;
+	top: 100px;
+	padding-left: 50%;
+	text-align: left;
+	
+}
+#foot{
+
+	position: absolute;
+	bottom: -344px;
+	width: 100%;
+	
+	
+	left: 0px;
+	clear: both;
+}
+
+
