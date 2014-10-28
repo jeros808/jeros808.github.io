@@ -78,8 +78,8 @@ overflow-x: hidden;
     font-family: 'socialico'; 
     src: url('../Socialico.otf');
     src: url('../Socialico.ttf') format('truetype'),
-         url('../Socialico Plus.ttf') format('truetype'),
-         url('../Socialico Plus.otf');
+      src:   url('../Socialico Plus.ttf') format('truetype'),
+        src: url('../Socialico Plus.otf');
     font-weight: normal;
     font-style: normal;
 }
