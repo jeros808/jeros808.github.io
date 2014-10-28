@@ -1,0 +1,47 @@
+div[data-magellan-expedition]{background-color: red; margin:0px !important; padding: 0px !important; display:hidden !important; position: fixed !important; top:0px !important;}
+div[data-magellan-expedition-clone]{background-color: red; margin:0px !important; padding: 0px !important; display:none !important; position: fixed !important; top:0px !important;}
+a.anchor{display: block; position: relative; top: 0px; visibility: hidden;}
+
+p{
+font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Raleway', serif;
+}
+a{
+	font-family: 'Bree Serif', serif;
+}
+body{
+font-family: 'Raleway', sans-serif;
+
+}
+.li{
+font-family: 'Bree Serif', serif;
+}
+.top-bar-section ul li > a {
+	font-family: 'Raleway', sans-serif;
+}
+.contain-main {
+
+    background-position: center top; 
+    background-repeat: repeat-y repeat-x;
+    background-attachment: fixed;
+    background-image: url('../images/peeppic1.jpg');
+
+}
+ body {
+   
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: 'socialico'; 
+    src: url('../Socialico.otf');
+    src: url('../Socialico.ttf') format('truetype'),
+         url('../Socialico Plus.ttf') format('truetype'),
+         url('../Socialico Plus.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+h6{font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;}
