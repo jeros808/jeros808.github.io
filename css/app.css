@@ -69,26 +69,15 @@ a:hover{
 
   color:#200;
 }
-body{
-overflow-x: hidden;
 
-}
 
 @font-face {
     font-family: 'socialico'; 
     src: url('../Socialico.otf');
-    src: url('../Socialico.ttf') format('truetype');
-      
+    src: url('../Socialico.ttf') format('truetype'),
+         url('../Socialico Plus.ttf') format('truetype'),
+         url('../Socialico Plus.otf');
     font-weight: normal;
     font-style: normal;
 }
-@font-face{
-    font-family: 'Socialico Plus';
-    src: url('../Socialico Plus.ttf') format('truetype');
-     src:    url('../Socialico Plus.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 h6{font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;}
