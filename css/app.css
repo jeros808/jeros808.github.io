@@ -69,7 +69,10 @@ a:hover{
 
   color:#200;
 }
-
+ body {
+   
+    overflow-x: hidden;
+}
 
 @font-face {
     font-family: 'socialico'; 
