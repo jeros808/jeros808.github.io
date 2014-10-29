@@ -22,12 +22,11 @@
 <body>
  
  
- <div class="fixed" >
-
+  <div class="fixed">
     <nav class="top-bar" style="-webkit-box-shadow: 0px 0px 6px 8px rgba(0,0,0,0.3);
 -moz-box-shadow: 0px 0px 6px 8px rgba(0,0,0,0.3);
-box-shadow: 0px 0px 6px 8px rgba(0,0,0,0.3);"  data-topbar role="navigation"> <ul class="title-area" > <li class="name"> <h1><a href="#home" class="smoothScroll" style="font-family: 'Lobster', cursive; font-size:25px;">Jeffrey Rosal </a></h1> </li> <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --> <li class="toggle-topbar menu-icon" ><a><span></span></a></li> </ul> 
-      <section class="top-bar-section" > <!-- left Nav Section --> <ul class="left" > <li><a  href="#about" class="smoothScroll" style="font-size:15px; ">ABOUT</a></li>   <li><a  href="#work" class="smoothScroll" style="font-size:15px;">WORK</a></li>  <li><a href="#contact" class="smoothScroll" style="font-size:15px;">CONTACT</a></li>  </ul> </section> </nav>
+box-shadow: 0px 0px 6px 8px rgba(0,0,0,0.3);" data-topbar role="navigation"> <ul class="title-area"> <li class="name"> <h1><a href="index.html" style="font-family: 'Lobster', cursive; font-size:25px;" > Jeffrey Rosal </a></h1> </li> <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone --> <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li> </ul> 
+      <section class="top-bar-section" >  <!-- left Nav Section --> <ul class="left" > <li><a  href="#about" class="smoothScroll" style="font-size:15px; ">ABOUT</a></li>   <li><a  href="#work" class="smoothScroll" style="font-size:15px;">WORK</a></li>  <li><a href="#contact" class="smoothScroll" style="font-size:15px;">CONTACT</a></li>  </ul> </section> </nav>
 
 
 </div>
@@ -146,7 +145,12 @@ box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);">
 </div>
 
 
-
+   
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 
 
 
@@ -164,12 +168,6 @@ speed : 0.15
    
 
 <script type="text/javascript" src="js/smoothscroll.js"></script> 
-    <script src="js/foundation.min.js"></script>
-    
-
-    <script>
-      $(document).foundation();
-      
-    </script>
+  
   </body>
 </html>
