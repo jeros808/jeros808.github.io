@@ -148,9 +148,7 @@ box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);">
 
 
 
- <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation/foundation.js"></script>
-    
+ 
    
  
      <script src="js/parallax-plugin.js"></script>
@@ -160,11 +158,20 @@ speed : 0.15
 <script>$('.container3').parallax({
 speed : 0.15
 });</script>
-   
+   <!-- Check for Zepto support, load jQuery if necessary -->
+<script>
+  document.write('<script src=/js/vendor/'
+    + ('__proto__' in {} ? 'zepto' : 'jquery')
+    + '.js><\/script>');
+</script>
+    
+<script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.magellan.js"></script>
 
     <script>
       $(document).foundation();
+      $(document).foundation.magellan();
     </script>
   </body>
 </html>
