@@ -46,3 +46,63 @@ height:100%;
     font-style: normal;
 }
 h6{font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;}
+
+
+#video1{
+border-style: none; width: 1015px; height: 562px;
+}
+
+#video2{
+border-style: none; width:500px; height:281px; 
+}
+#video3{
+border-style: none; width:500px; height:281px; 
+}
+#video4{
+border-style: none; width:500px; height:281px; 
+}
+#video5{
+border-style: none; width:500px; height:281px; 
+}
+#video6{
+border-style: none; width:1015px; height:428px;
+}
+
+
+#projects{
+font-size:5em; color:white; font-weight: 700; margin-top:80px; 
+}
+#motion{
+font-size:2em; color:white; font-weight: 400;
+
+}
+@media only screen 
+and (max-width : 720px) 
+{
+#projects{font-size:2em;}
+#motion{font-size:1em;}
+
+#video1{
+border-style: none; width: 100%; height:100%;
+}
+
+#video2{
+border-style: none; width: 100%; height:100%;
+}
+#video3{
+border-style: none; width: 100%; height:100%;
+}
+#video4{
+border-style: none; width: 100%; height:100%;
+}
+#video5{
+border-style: none; width: 100%; height:100%;
+}
+#video6{
+border-style: none; width: 100%; height:100%;
+}
+}
+
+
+
+

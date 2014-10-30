@@ -45,3 +45,19 @@ font-family: 'Bree Serif', serif;
     font-style: normal;
 }
 h6{font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;}
+/* Smartphones (portrait and landscape) ----------- */
+#peep{
+font-size:5em; color:white; font-weight: 900; margin-top:80px; 
+}
+#ux{
+font-size:2em; color:white; font-weight: 400;
+
+}
+@media only screen 
+and (max-width : 720px) 
+{
+#peep{font-size:2em;}
+#ux{font-size:1em;}
+
+
+}
