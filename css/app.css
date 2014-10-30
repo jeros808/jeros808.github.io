@@ -20,8 +20,16 @@ border-radius: 5px;
   border-style: solid;
     border-color:white;
 border-width: 2px;
-a:hover {background-color: transparent !important;}
+width:100%;
 }
+
+
+button:hover, button:focus, 
+.button:hover, .button:focus
+{
+background-color:transparent !important;
+}
+
 #borderbox{
 border-radius: 5px;
   border-style: solid;
@@ -90,6 +98,8 @@ a:hover{
 }
 h6{font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;}
 
+#hello{font-size:2em; font-weight:500;}
+
 #sun{
 font-size:4em; color:yellow;}
 #mountains{
@@ -110,4 +120,7 @@ and (max-width : 720px)
 #sun{font-size:2.5em;}
 #creating{font-size:2.5em;}
 
+#hello{font-size:20px; font-weight:400;}
 }
+
+
