@@ -10,7 +10,7 @@
 }
 #logo {
 	position: absolute;
-	left: 45%;
+	left: 44%;
 	top: 0px;
 	width: 136px;
 	height: 178px;
@@ -36,33 +36,44 @@ li{
 	color: #CEBB99;
 	display: inline;
 	font-size: 19px;
-	overflow:hidden;
+	overflow: hidden;
 	}
 	
+#centerbox{
 
+	position: relative;
+	left: 0px;
+	top: 288px;
+	width: 100%;
+	
+	z-index: 4;
+
+}
 	
 
 .middle-text{
 	
 }
 #leftcolumn {
+	margin-right: 1px;
+	padding-right: 1px;
 	text-align: center;	
 	position: absolute;
-	left: 10%;
-	top: 288px;
+	left: 29%;
+	top: 0px;
 	width: 300px;
 	
-	z-index: 4;
+	
 }
 #rightcolumn {
 	text-align: center;
-	padding: 1px;
+	margin-left: -10px;
+	padding-left: 1px;
 	position: absolute;
 	left: 55%;
-	top: 288px;
+	top: 0px;
 	width: 300px;
 	
-	z-index: 4;
 }
 h2{
 	color: #230B03;	
