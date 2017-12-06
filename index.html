@@ -197,6 +197,17 @@ speed : 0.15
    
 
 <script type="text/javascript" src="js/smoothscroll.js"></script> 
-  <script type="text/javascript" src="js/hash.js"></script> 
+  <script>
+$(document).ready(function () {
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && isChrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    });
+  </script> 
   </body>
 </html>
