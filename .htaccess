@@ -9,6 +9,14 @@
 # http://de.slideshare.net/walterebert/mehr-performance-fr-wordpress
 #
 
+# Redirect all pages from olddomain.com
+# to newdomain.com
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^jeffreyrosal.com$
+RewriteRule ^(.*)$ https://jeffreyrosal.com/$1 [R=301,L] 
+
+
 <IfModule mod_deflate.c>
 # Insert filters / compress text, html, javascript, css, xml:
 AddOutputFilterByType DEFLATE text/plain
