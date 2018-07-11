@@ -36,12 +36,7 @@
   <loc>http://jeffreyrosal.com/projects.html</loc>
   <lastmod>2018-07-06T04:57:10+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-
-
-</urlset>
-
-<url>
+  <url>
   <loc>https://jeffreyrosal.com/</loc>
   <lastmod>2018-07-06T04:57:10+00:00</lastmod>
   <priority>1.00</priority>
@@ -71,6 +66,5 @@
   <lastmod>2018-07-06T04:57:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+</url>
 
-
-</urlset>
