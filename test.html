@@ -17,6 +17,8 @@ overflow: hidden;
 border-right: 0.10em solid rgb(239, 85, 48);
 white-space: nowrap;
 animation: typing 10s steps(50, end) 0s infinite, blink-caret .5s step-end infinite;
+ -webkit-animation-delay: 0s;
+  animation-delay: 0s;
 max-width: 190px;
 padding-top: 20px;
 font-family: BergenSans-Bold !important;
@@ -33,6 +35,8 @@ overflow: hidden;
 border-right: 0.10em solid rgb(239, 85, 48);
 white-space: nowrap;
 animation: typing2 10s steps(50, end) 5s infinite, blink-caret .5s step-end infinite;
+-webkit-animation-delay: 5s;
+  animation-delay: 5s;
 max-width: 190px;
 padding-top: 20px;
 font-family: BergenSans-Bold !important;
@@ -41,23 +45,22 @@ font-family: BergenSans-Bold !important;
 
 /* The typing effect */
 @keyframes typing{
-  from { width: 0;border-right:rgba(239, 85, 48, 1);}
-25% {  width: 100%;border-right:rgba(239, 85, 48, 1);}
-50% {width: 0;border-right:rgba(239, 85, 48, 1);}
-75% { width: 0;border-right:rgba(239, 85, 48, 0);}
-  to { width: 0;border-right:rgba(239, 85, 48, 0);}
+  from { width: 0;}
+25% {  width: 0;}
+50% {width: 100%;}
+75% { width: 0;}
+  to { width: 0;}
 
 }
 
 @keyframes typing2{
-  from { width: 0;border-right:rgba(239, 85, 48, 0);}
-25% {  width: 0;border-right:rgba(239, 85, 48, 0);}
-50% {width: 0;border-right:rgba(239, 85, 48, 1);}
-75% { width: 100%; border-right:rgba(239, 85, 48, 1);}
-  to { width: 0;border-right:rgba(239, 85, 48, 1);}
+  from { width: 0;}
+25% {  width: 0;}
+50% {width: 100%;}
+75% { width: 0; }
+  to { width: 0;}
 
 }
-
 
 
 
@@ -88,6 +91,6 @@ padding-right: 12px;
 
 </div>
 <div class="mopas">
-<h1 class="more-word">More <span class="paschen-color" >Paschen.12</h1>
+<h1 class="more-word">More <span class="paschen-color" >Paschen.15</h1>
 
 </div>
