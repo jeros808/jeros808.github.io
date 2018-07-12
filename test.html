@@ -30,9 +30,9 @@ font-size:45px;
 color: #222;
 font-size: 45px;
 overflow: hidden;
-border-right: 0.10em solid rgb(239, 85, 48);
+border-right: 0.10em solid rgba(239, 85, 48, 0);
 white-space: nowrap;
-animation: typing2 20s steps(50, end) 10s infinite;
+animation: typing2 20s steps(50, end) 10s infinite, blink-caret .5s step-end infinite;
 max-width: 190px;
 padding-top: 20px;
 font-family: BergenSans-Bold !important;
@@ -45,13 +45,13 @@ font-family: BergenSans-Bold !important;
 25% {  width: 0;}
 50% {width: 100%;}
 75% { width: 0;  }
-  to { width: 0; display:none;}
+  to { width: 0; border-right: 0em solid rgba(239, 85, 48, 0);}
 
 }
 
 @keyframes typing2{
-  from { width: 0;display:none;}
-25% {  width: 0;}
+  from { width: 0; border-right: 0em solid rgba(239, 85, 48, 0);}
+25% {  width: 0;border-right: 0em solid rgba(239, 85, 48, 0);}
 50% {width: 100%;}
 75% { width: 0;  }
   to { width: 0; }
@@ -83,7 +83,7 @@ padding-right: 12px;
 
  <span class="more-word">More</span><span class="typewriter" ><h1>Tenacity</h1>
 </span>
-<span class="more-word">More</span><span class="typewriter2" ><h1 style="margin-top:-20;">2Versatility2</h1>
+<span class="more-word">More</span><span class="typewriter2" ><h1 style="margin-top:-20;">3Versatility2</h1>
 </span>
 
 </div>
